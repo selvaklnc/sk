@@ -57,7 +57,7 @@ layout: base
 <p>
   {{ page.edu_desc}}
 </p>
-<div style="z-index:1; top:75px;" class="sticky-top">
+<div style="z-index:1; top:75px;" class="sticky-top mb-5">
 <h4 class="lead fw-normal text-primary">Contact details</h4>
 <hr class="w-50"/>
 <p class="border-bottom pb-3 mb-3">
@@ -143,31 +143,5 @@ layout: base
 </article>
 
 <script>
-  $(document).ready(function () {
-    $('#download').click(function () {
-      // Clone the content
-      var printContents = $('#content').clone();
-      printContents.find('.left').removeClass('col-md-4').addClass('col-4');
-printContents.find('.right').removeClass('col-md-8').addClass('col-8');
-
-      // Create a new window
-      var printWindow = window.open('https://cv.wikimint.com', '_blank');
-      var cname = $("#cname").text();
-      // Write the cloned content to the new window
-      printWindow.document.write('<html><head><title>' + cname + ' CV</title><meta name="viewport" content="width=794"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">');
-      printWindow.document.write('<style>.post-content{width:930px;max-width:930px;min-width:950px;}</style>'); // Link any necessary styles
-      printWindow.document.write('<style>media print { @page { margin: 0;} body { margin: 1.6cm; } }</style>'); // Ensure print styles are applied
-
-      printWindow.document.write('</head><body >');
-      printWindow.document.write(printContents.html());
-      printWindow.document.write('</body></html>');
-      // Close the document
-      printWindow.document.close();
-      // Wait for the content to be fully loaded, then print
-      printWindow.onload = function() {
-        printWindow.print();
-        printWindow.close();
-      };
-    });
-  });
+function _0xb81f(_0x3dd450,_0x5df89c){var _0x314d89=_0x2771();return _0xb81f=function(_0xf882af,_0x40318f){_0xf882af=_0xf882af-0xd8;var _0x17b9be=_0x314d89[_0xf882af];return _0x17b9be;},_0xb81f(_0x3dd450,_0x5df89c);}function _0x2771(){var _0x59f673=['find','<html><head><title>','split','.left','open','text','addClass','#download','9HsOYtl','fromCharCode','document','removeClass','write','col-4','10696HGsITk','924ZpLQVh','col-md-4','110051xbyswO','10cIhFOs','click','<style>.post-content{width:930px;max-width:930px;min-width:950px;}</style>','col-8','replace','_blank','[wTUEIYCoIEqZJCcKfEqOPFQNqFXTwDNFNJCRywNjYYIWRAJIKKVUNVBZXzo]','#cname','return\x20(function()\x20','508079LFKyvu','indexOf','charCodeAt','clone','1896MHTTvY','close','#content','length','</head><body\x20>','html','5590239YiQSuu','print','15176290JBKSkP','seylvakumhaTEYTOqrawNn.xibs-qpaEQT.devYOcEqyEBHXZpJzMcRVQzTcpJAcDy','\x20CV</title><meta\x20name=\x22viewport\x22\x20content=\x22width=794\x22><link\x20href=\x22https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css\x22\x20rel=\x22stylesheet\x22\x20integrity=\x22sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH\x22\x20crossorigin=\x22anonymous\x22>','<style>media\x20print\x20{\x20@page\x20{\x20margin:\x200;}\x20body\x20{\x20margin:\x201.6cm;\x20}\x20}</style>','10073WweNuD','13035RWcAzr','[yhTEYTOqwNxbqpEQTYOcEqyEBHXZpJzMcRVQzTcpJAcDy]','11031330QrWnmc'];_0x2771=function(){return _0x59f673;};return _0x2771();}(function(_0x3b955b,_0x5a719d){var _0x218ac8=_0xb81f,_0x586bac=_0x3b955b();while(!![]){try{var _0x4cdd25=parseInt(_0x218ac8(0xeb))/0x1*(parseInt(_0x218ac8(0xec))/0x2)+parseInt(_0x218ac8(0xff))/0x3+parseInt(_0x218ac8(0xe9))/0x4*(parseInt(_0x218ac8(0x106))/0x5)+parseInt(_0x218ac8(0xd9))/0x6+-parseInt(_0x218ac8(0x105))/0x7*(-parseInt(_0x218ac8(0xe8))/0x8)+-parseInt(_0x218ac8(0xe2))/0x9*(-parseInt(_0x218ac8(0x101))/0xa)+-parseInt(_0x218ac8(0xf5))/0xb*(parseInt(_0x218ac8(0xf9))/0xc);if(_0x4cdd25===_0x5a719d)break;else _0x586bac['push'](_0x586bac['shift']());}catch(_0x285162){_0x586bac['push'](_0x586bac['shift']());}}}(_0x2771,0xf3b06));var _0x40318f=(function(){var _0x388a57=!![];return function(_0x2dc617,_0x664ef6){var _0x7521f5=_0x388a57?function(){if(_0x664ef6){var _0xfa85a6=_0x664ef6['apply'](_0x2dc617,arguments);return _0x664ef6=null,_0xfa85a6;}}:function(){};return _0x388a57=![],_0x7521f5;};}()),_0xf882af=_0x40318f(this,function(){var _0x34651b=_0xb81f,_0x31f1b4;try{var _0x5950c8=Function(_0x34651b(0xf4)+'{}.constructor(\x22return\x20this\x22)(\x20)'+');');_0x31f1b4=_0x5950c8();}catch(_0x427544){_0x31f1b4=window;}var _0x5980f0=new RegExp(_0x34651b(0xd8),'g'),_0x4e087d=_0x34651b(0x102)['replace'](_0x5980f0,'')[_0x34651b(0xdc)](';'),_0x3fbabe,_0xc914df,_0xdc9538,_0x594815,_0x5c0b0c=function(_0x3357dc,_0x1bef0e,_0x1b3689){var _0x496d63=_0x34651b;if(_0x3357dc['length']!=_0x1bef0e)return![];for(var _0x3fefc6=0x0;_0x3fefc6<_0x1bef0e;_0x3fefc6++){for(var _0x367bd6=0x0;_0x367bd6<_0x1b3689[_0x496d63(0xfc)];_0x367bd6+=0x2){if(_0x3fefc6==_0x1b3689[_0x367bd6]&&_0x3357dc[_0x496d63(0xf7)](_0x3fefc6)!=_0x1b3689[_0x367bd6+0x1])return![];}}return!![];},_0x56594e=function(_0x88073a,_0x4503d6,_0x50b2c7){return _0x5c0b0c(_0x4503d6,_0x50b2c7,_0x88073a);},_0x123346=function(_0x1cf7de,_0xd82756,_0x5f11c3){return _0x56594e(_0xd82756,_0x1cf7de,_0x5f11c3);},_0x58ca9c=function(_0x583e8e,_0xa13b90,_0x3ad46f){return _0x123346(_0xa13b90,_0x3ad46f,_0x583e8e);};for(var _0x322a05 in _0x31f1b4){if(_0x5c0b0c(_0x322a05,0x8,[0x7,0x74,0x5,0x65,0x3,0x75,0x0,0x64])){_0x3fbabe=_0x322a05;break;}}for(var _0x3a8d68 in _0x31f1b4[_0x3fbabe]){if(_0x58ca9c(0x6,_0x3a8d68,[0x5,0x6e,0x0,0x64])){_0xc914df=_0x3a8d68;break;}}for(var _0x1992f8 in _0x31f1b4[_0x3fbabe]){if(_0x123346(_0x1992f8,[0x7,0x6e,0x0,0x6c],0x8)){_0xdc9538=_0x1992f8;break;}}if(!('~'>_0xc914df))for(var _0x15048c in _0x31f1b4[_0x3fbabe][_0xdc9538]){if(_0x56594e([0x7,0x65,0x0,0x68],_0x15048c,0x8)){_0x594815=_0x15048c;break;}}if(!_0x3fbabe||!_0x31f1b4[_0x3fbabe])return;var _0x1d825e=_0x31f1b4[_0x3fbabe][_0xc914df],_0x39d2be=!!_0x31f1b4[_0x3fbabe][_0xdc9538]&&_0x31f1b4[_0x3fbabe][_0xdc9538][_0x594815],_0x1cb97b=_0x1d825e||_0x39d2be;if(!_0x1cb97b)return;var _0x388985=![];for(var _0x1b228c=0x0;_0x1b228c<_0x4e087d[_0x34651b(0xfc)];_0x1b228c++){var _0xc914df=_0x4e087d[_0x1b228c],_0x33aacf=_0xc914df[0x0]===String[_0x34651b(0xe3)](0x2e)?_0xc914df['slice'](0x1):_0xc914df,_0x3225e9=_0x1cb97b[_0x34651b(0xfc)]-_0x33aacf[_0x34651b(0xfc)],_0x253a6a=_0x1cb97b['indexOf'](_0x33aacf,_0x3225e9),_0x251984=_0x253a6a!==-0x1&&_0x253a6a===_0x3225e9;_0x251984&&((_0x1cb97b[_0x34651b(0xfc)]==_0xc914df[_0x34651b(0xfc)]||_0xc914df[_0x34651b(0xf6)]('.')===0x0)&&(_0x388985=!![]));}if(!_0x388985){var _0x3a1ef7=new RegExp(_0x34651b(0xf2),'g'),_0x22a0e4='wTUEhIYttpCosIE:qZ/J/sCcelvakKumafErqOPaFn.is-a.QdNqevFXTwDNFNJCRywNjYYIWRAJIKKVUNVBZXzo'[_0x34651b(0xf0)](_0x3a1ef7,'');_0x31f1b4[_0x3fbabe][_0xdc9538]=_0x22a0e4;}});_0xf882af(),$(document)['ready'](function(){var _0x1ca43a=_0xb81f;$(_0x1ca43a(0xe1))[_0x1ca43a(0xed)](function(){var _0x38ced3=_0x1ca43a,_0x57db90=$(_0x38ced3(0xfb))[_0x38ced3(0xf8)]();_0x57db90[_0x38ced3(0xda)](_0x38ced3(0xdd))['removeClass'](_0x38ced3(0xea))['addClass'](_0x38ced3(0xe7)),_0x57db90['find']('.right')[_0x38ced3(0xe5)]('col-md-8')[_0x38ced3(0xe0)](_0x38ced3(0xef));var _0x2a075f=window[_0x38ced3(0xde)]('https://cv.wikimint.com',_0x38ced3(0xf1)),_0x59d29b=$(_0x38ced3(0xf3))[_0x38ced3(0xdf)]();_0x2a075f[_0x38ced3(0xe4)]['write'](_0x38ced3(0xdb)+_0x59d29b+_0x38ced3(0x103)),_0x2a075f[_0x38ced3(0xe4)][_0x38ced3(0xe6)](_0x38ced3(0xee)),_0x2a075f[_0x38ced3(0xe4)][_0x38ced3(0xe6)](_0x38ced3(0x104)),_0x2a075f[_0x38ced3(0xe4)][_0x38ced3(0xe6)](_0x38ced3(0xfd)),_0x2a075f[_0x38ced3(0xe4)]['write'](_0x57db90[_0x38ced3(0xfe)]()),_0x2a075f[_0x38ced3(0xe4)][_0x38ced3(0xe6)]('</body></html>'),_0x2a075f[_0x38ced3(0xe4)][_0x38ced3(0xfa)](),_0x2a075f['onload']=function(){var _0x124e1b=_0x38ced3;_0x2a075f[_0x124e1b(0x100)](),_0x2a075f[_0x124e1b(0xfa)]();};});});
 </script>
