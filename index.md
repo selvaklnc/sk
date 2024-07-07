@@ -21,9 +21,9 @@ li: >
 current_title: >
     What I do:
 current_desc: >
-    <p>Software Engineer @ sagous.in</p>
-    <p>WordPress Developer @ sisar.nl</p>
-    <p>Web Developer @ stafide.nl</p>
+    <p>Software Engineer @ <a href="https://www.sagous.in" target="_blank">sagous.in</a></p>
+    <p>WordPress Developer @ <a href="https://www.sisar.nl" target="_blank">sisar.nl</p>
+    <p>Web Developer @ <a href="https://www.stafide.nl" target="_blank">stafide.nl</p>
 interest_title: >
     What I'm interested in:
 interest_desc: >
