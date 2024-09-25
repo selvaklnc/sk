@@ -40,7 +40,7 @@ edu_desc: >
 exp:
   - t: Software Engineer
     c: Sisar, Sagous, Stafide
-    d: 2023 - Present
+    d: 2022 - Present
     s: WordPress, Front-end UI of web apps like HRMS in laravel and low-code development projects.
     b: <p>Managing company website, wordpress development, on-page and off-page SEO, making website customization as per requirements from other departments. Customization in HTML, CSS, JavaScript. WordPress theme customization as per special requirements from marketing team.</p><p>Worked along with a team of Laravel development project. Handled end-to-end front-end development of web apps such as HRMS and more. Handled front-end part of low-code platform. Complete UI customization using CSS and JavaScript.</p>
   - t: Data Entry Operator
