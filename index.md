@@ -43,6 +43,11 @@ exp:
     d: 2022 - Present
     s: WordPress, Front-end UI of web apps like HRMS in laravel and low-code development projects.
     b: <p>Managing company website, wordpress development, on-page and off-page SEO, making website customization as per requirements from other departments. Customization in HTML, CSS, JavaScript. WordPress theme customization as per special requirements from marketing team.</p><p>Worked along with a team of Laravel development project. Handled end-to-end front-end development of web apps such as HRMS and more. Handled front-end part of low-code platform. Complete UI customization using CSS and JavaScript.</p>
+  - t: Content Writer / Freelance Writer / Technical Writer
+    c: Wikimint, Wikimint Developer, and Platforms
+    d: 2022 - Present
+    s: Content creation, SEO optimization, WordPress content management, technical documentation, and creative writing.
+    b: <p>Produced high-quality, engaging, and SEO-optimized content, including blogs, articles, and web pages, to drive traffic and enhance brand visibility. </p> <p>Managed and customized WordPress content, aligning pages with marketing goals and user experience best practices. </p> <p>Authored technical documentation, user guides, and product manuals, simplifying complex concepts for diverse audiences. </p> <p>Executed on-page and off-page SEO strategies to boost website rankings and visibility in search engines. </p> <p>Collaborated with the marketing team to create persuasive copy for campaigns, newsletters, and landing pages, driving engagement and conversions. </p>  
   - t: Data Entry Operator
     c: Eagle Software, Jayam Computers
     d: 2010 - 5 months
