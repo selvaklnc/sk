@@ -4,7 +4,7 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-    <a id="header_name" class="site-title fw-normal text-secondary" rel="author" href="{{ "/" | relative_url }}">SK</a>
+    <a id="header_name" class="site-title fw-normal text-secondary" rel="author" href="https://sk.wikimint.com">SK</a>
 
     {%- if titles_size > 0 -%}
       <nav class="site-nav">
