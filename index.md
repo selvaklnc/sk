@@ -11,7 +11,7 @@ role: >
 loc: >
     Neelankarai, Chennai, 600115, India    
 ws: >
-    https://developer.wikimint.com
+    https://sk.wikimint.com
 fb: >
     https://www.facebook.com/selvakumarank
 tw: >
